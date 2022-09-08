@@ -5,7 +5,13 @@
     background-color: lightgrey;
     border: 1px solid grey;
 }
-
-#col{
-    background-color: lightgrey;
+#col
+{
+    background-color: grey;
 }
+table,tr,td
+  {
+     border-spacing:0cm;
+    padding: 0%;
+    border: 1px lightgray;
+  }
