@@ -1,0 +1,11 @@
+#btn{
+    width: 100%;
+    height: auto ;
+    font-size: 20px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+#col{
+    background-color: lightgrey;
+}
