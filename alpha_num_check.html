@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="alphanumeric()"> Click </button>
+<script>
+function alphanumeric()
+{
+    var i=prompt("Enter");
+    var letterNumber = /^[A-Za-z0-9]+$/;
+    if(i.match(letterNumber)) 
+    {
+        alert("Is alphanumeric");
+    }
+    else
+    { 
+        alert("Is Not alphanumeric");
+    }
+}
+</script>
+</body>
+</html>
+
